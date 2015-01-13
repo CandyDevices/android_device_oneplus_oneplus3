@@ -201,6 +201,10 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Ship with root?
 WITH_ROOT := true
 
+# Releasetools
+TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_op3
+TARGET_RELEASETOOLS_EXTENSIONS := $(PLATFORM_PATH)
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 
