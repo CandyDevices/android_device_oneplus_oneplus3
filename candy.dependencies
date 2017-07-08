@@ -1,32 +1,26 @@
 [
   {
     "repository": "CandyDevices/device_oppo_common",
-    "target_path": "device/oppo/common",
-    "branch": "c7.1.1"
+    "target_path": "device/oppo/common"
   },
   {
     "repository": "CandyDevices/kernel_oneplus_msm8996",
-    "target_path": "kernel/oneplus/msm8996",
-    "branch": "c7.1.1"
+    "target_path": "kernel/oneplus/msm8996"
   },
   {
     "repository": "SlimRoms/android_external_stlport",
-    "target_path": "external/stlport",
-    "branch": "ng7.1"
+    "target_path": "external/stlport"
   },
   {
     "repository": "SlimRoms/vendor_nxp-nfc_opensource_frameworks",
-    "target_path": "vendor/nxp-nfc/opensource/frameworks",
-    "branch": "ng7.1"
+    "target_path": "vendor/nxp-nfc/opensource/frameworks"
   },
   {
     "repository": "SlimRoms/vendor_nxp-nfc_opensource_libnfc-nci",
-    "target_path": "vendor/nxp-nfc/opensource/libnfc-nci",
-    "branch": "ng7.1"
+    "target_path": "vendor/nxp-nfc/opensource/libnfc-nci"
   },
   {
     "repository": "SlimRoms/vendor_nxp-nfc_opensource_Nfc",
-    "target_path": "vendor/nxp-nfc/opensource/Nfc",
-    "branch": "ng7.1"
+    "target_path": "vendor/nxp-nfc/opensource/Nfc"
   }
 ]
