@@ -125,10 +125,10 @@ void vendor_load_properties() {
 
     if (strstr(rf_version, "11") || strstr(rf_version, "31") || strstr(rf_version, "21")) {
         /* OnePlus3 */
-        load_op3("Slim OnePlus3");
+        load_op3("Candy OnePlus3");
     } else if (strstr(rf_version, "12") || strstr(rf_version, "32") || strstr(rf_version, "22")) {
         /* Oneplus3T */
-        load_op3t("Slim OnePlus3-T");
+        load_op3t("Candy OnePlus3-T");
     }
 
     init_alarm_boot_properties();
