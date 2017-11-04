@@ -20,13 +20,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from oneplus3 device
 $(call inherit-product, device/oneplus/oneplus3/device.mk)
 
-# Inherit some common Slim stuff.
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
+# Inherit some common Candy stuff.
+$(call inherit-product, vendor/candy/config/common_full_phone.mk)
 
 # Slim Framework
 DISABLE_SLIM_FRAMEWORK:= true
 
-PRODUCT_NAME := slim_oneplus3
+PRODUCT_NAME := candy_oneplus3
 PRODUCT_DEVICE := oneplus3
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
