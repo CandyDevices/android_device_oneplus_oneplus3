@@ -178,6 +178,10 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     services-ext
 
+# Doze mode
+PRODUCT_PACKAGES += \
+    OneplusDoze
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
@@ -313,6 +317,10 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw
+
+# Pocketmode
+PRODUCT_PACKAGES += \
+    OneplusPocketMode
 
 # Power
 PRODUCT_PACKAGES += \
