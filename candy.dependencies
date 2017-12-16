@@ -1,10 +1,5 @@
 [
   {
-    "repository": "CandyDevices/device_oneplus_oneplus3",
-    "target_path": "device/oneplus/oneplus3",
-    "branch": "c8.0"
-  },
-  {
     "repository": "CandyDevices/device_oppo_common",
     "target_path": "device/oppo/common",
     "branch": "c8.0"
