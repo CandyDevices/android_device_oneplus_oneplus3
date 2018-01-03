@@ -27,13 +27,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/candy/config/common_full_phone.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/oneplus/oneplus3/device.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := gzosp_oneplus3
+PRODUCT_NAME := candy_oneplus3
 PRODUCT_DEVICE := oneplus3
 PRODUCT_BRAND := OnePlus
 PRODUCT_MANUFACTURER := OnePlus
