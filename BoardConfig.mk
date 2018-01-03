@@ -23,6 +23,8 @@
 # Inherit from oppo-common
 -include device/oppo/common/BoardConfigCommon.mk
 
+ALLOW_MISSING_DEPENDENCIES=true
+
 BOARD_PATH := device/oneplus/oneplus3
 
 TARGET_NO_BOOTLOADER := true
