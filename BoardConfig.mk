@@ -26,6 +26,8 @@
 
 PLATFORM_PATH := device/oneplus/oneplus3
 
+ALLOW_MISSING_DEPENDENCIES=true
+
 TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/include
 
 BOARD_VENDOR := oneplus
