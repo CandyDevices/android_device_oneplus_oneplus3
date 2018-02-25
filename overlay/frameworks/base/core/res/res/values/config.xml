@@ -230,6 +230,10 @@
     <bool name="config_dozeAfterScreenOff">true</bool>
     <!-- Screen brightness when dozing. -->
     <integer name="config_screenBrightnessDoze">17</integer>
+
+    <!-- Allow auto brightness while dozing -->
+    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
+
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
 
