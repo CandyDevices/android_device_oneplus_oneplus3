@@ -28,6 +28,10 @@ DEVICE_PROVISIONED=1
 # Start in global mode
 #ro.telephony.default_network=10
 
+# Camera
+camera.hal1.packagelist=com.skype.raider,com.whatsapp,com.google.android.GoogleCamera,com.oneplus.camera
+
+# Display
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=1
 debug.sf.latch_unsignaled=1
