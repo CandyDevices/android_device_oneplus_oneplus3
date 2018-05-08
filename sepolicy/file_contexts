@@ -21,3 +21,6 @@
 # Binaries
 /system/bin/ifaadaemon                                          u:object_r:ifaadaemon_exec:s0
 /(vendor|system/vendor)/bin/remosaic_daemon                     u:object_r:remosaic_daemon_exec:s0
+
+# High Brightess Mode
+/sys/devices/virtual/graphics/fb0/hbm                           u:object_r:higbrightness_dev:s0
