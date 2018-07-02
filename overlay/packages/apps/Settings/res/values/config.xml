@@ -24,4 +24,7 @@
        3 = right side
   -->
   <integer name="config_fingerprintSensorLocation">1</integer>
+
+  <!-- Prevent navbar from being disabled on FP enrollment -->
+  <bool name="config_hasBottomFingerprintSensor">true</bool>
 </resources>
