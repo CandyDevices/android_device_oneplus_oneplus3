@@ -25,7 +25,7 @@ $(call inherit-product, vendor/candy/config/common_full_phone.mk)
 
 # Vendor security patch level
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.candy.build.vendor_security_patch=2018-07-01
+    ro.candy.build.vendor_security_patch=2018-09-01
 
 PRODUCT_NAME := candy_oneplus3
 PRODUCT_DEVICE := oneplus3
