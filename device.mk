@@ -29,7 +29,7 @@ $(call inherit-product, vendor/oneplus/oneplus3/oneplus3-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-aosip
+    $(LOCAL_PATH)/overlay-candy
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -310,10 +310,6 @@ PRODUCT_PACKAGES += \
     lights.msm8996 \
     android.hardware.light@2.0-impl \
     android.hardware.light@2.0-service
-
-# Lineage hardware
-PRODUCT_PACKAGES += \
-    libjni_livedisplay
 
 # Media
 PRODUCT_COPY_FILES += \
