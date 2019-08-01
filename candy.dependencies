@@ -8,7 +8,7 @@
     "target_path": "kernel/oneplus/msm8996"
   },
   {
-    "repository": "Svendor_oneplus_oneplus3",
+    "repository": "SecretIngredients/vendor_oneplus_oneplus3",
     "target_path": "vendor/oneplus/oneplus3"
   }
 ]
